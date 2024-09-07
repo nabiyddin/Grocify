@@ -1,0 +1,77 @@
+#happy {
+  padding: 250px 0 0 0;
+  position: relative;
+
+  h1 {
+    text-align: center;
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 600;
+  }
+
+  .wrapper {
+    margin-top: 100px;
+    padding: 250px 150px;
+    background: #2bea0c08;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10%;
+
+    .box {
+      background: var(--white-color);
+      padding: 50px;
+      box-shadow: 0px 9.22px 9.22px 0px #00000040;
+
+      .data {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .stars {
+          width: 30%;
+        }
+
+        span {
+          font-size: 30px;
+          line-height: 40px;
+          font-weight: 400;
+          color: #00000099;
+        }
+      }
+
+      p {
+        margin: 100px auto;
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 400;
+        color: #000000cc;
+        width: 88%;
+      }
+
+      .client {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 15px;
+        margin-left: 340px;
+
+        img {
+          width: 40%;
+        }
+
+        .client_name {
+          margin: 0;
+          font-size: 24px;
+          line-height: 30px;
+          font-weight: 400;
+          color: #000000cc;
+        }
+      }
+
+      .two {
+        margin-top: 140px;
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+:root {
+  --lato-font: "Lato";
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --dark-black-color: #1e1a1a;
+  --yellow-color: #ffb800;
+  --green-color: #289402;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--lato-font);
+}
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+  max-width: 1920px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
